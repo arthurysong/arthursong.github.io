@@ -1,3 +1,12 @@
+README FOR Arthur Song's Content:
+
+Hi, my name is Arthur Song, and I'm a software engineer!
+
+This is the repository for my portfolio website. Check out my bio and personal projects that I've worked on!
+
+Hosted at <will_post_url>
+
+**README FOR HTML5 UP TEMPLATE** 
 Read Only by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)

@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body class="is-preload">
 
@@ -18,8 +19,7 @@
 				<header>
 					<span class="image avatar"><img src="images/profile.png" alt="profile_picture" /></span>
 					<h1 id="logo"><a href="#seven">Arthur Song</a></h1>
-					<p>I got reprogrammed by a rogue AI<br />
-					and now I'm totally cray</p>
+					<p><a href="https://docs.google.com/document/d/1sA1zWOj1GefClCgTop2IhhmDb3dIu7O9NjfjvZMmZWc/edit?usp=sharing">resume</a> | arth3rs0ng@gmail.com</p>
 				</header>
 				<nav id="nav">
 					<ul>
@@ -30,7 +30,7 @@
 						<li><a href="#five">iManage</a></li>
 						<li><a href="#six">Citidex</a></li>
 						<li><a href="#seven">Arthur Song</a></li>
-						<li><a href="#eight">Contact</a></li>
+						<!-- <li><a href="#eight">Contact</a></li> -->
 					</ul>
 				</nav>
 				<footer>
@@ -42,6 +42,7 @@
 						<!-- <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
 						<li><a href="https://github.com/atribecalledarty" class="icon brands fa-github"><span class="label">Github</span></a></li>
 						<li><a href="mailto:arthursong14@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="https://docs.google.com/document/d/1sA1zWOj1GefClCgTop2IhhmDb3dIu7O9NjfjvZMmZWc/edit?usp=sharing" class="icon solid fa-file"><span class="label">Resume</span></a></li>
 					</ul>
 				</footer>
 			</section>
@@ -80,7 +81,7 @@
 										other miscellaneous skills that you may be interested in!</p>
 									<ul class="feature-icons">
 										<li class="icon solid fa-code">Ruby/Ruby on Rails</li>
-										<li class="icon solid fa-code">HTML/CSS/Javascript</li>
+										<li class="icon solid fa-code">HTML/CSS/JavaScript</li>
 										<li class="icon solid fa-cubes">React</li>
 										<li class="icon solid fa-database">MySQL/PostgreSQL</li>
 										<li class="icon solid fa-coffee">Technical Blogging</li>
@@ -127,19 +128,19 @@
 
 							<section id="four">
 								<div class="container">
-									<h3>Console-Poker (WIP)</h3>
-									<p>Console-Poker is my most recent project that I'm very proud of. I built this project because my friends and I enjoy playing
+									<h3>Console-Poker (WIP) 
+                                        <a href="https://github.com/atribecalledarty/console-poker-api" class="icon brands fa-github"></a>
+                                        <a href="https://github.com/atribecalledarty/console-poker-frontend" class="icon brands fa-github-alt"></a>
+                                        <a href="https://console-poker.herokuapp.com/" class="fa fa-external-link-square"></a>
+                                    </h3>
+									<p>Console-Poker is a Poker website that I built because my friends and I enjoy playing
 										poker when we hangout, and what better time to create a virtual game then now during COVID! I knew there are many poker games out
 										there so I wanted to create my own take by creating a UI where players play poker using a terminal, similar to how coders execute
 										commands in a terminal--I think working with a terminal is very appealing, and I think with the popularity of coding in media 
-										like Mr. Robot and Silicon Valley even non-coders find terminals very fascinating as well. <br/><em>Note: Later on in my project implementation,
-										after receiving feedback from people, I decided to remove the terminal UI because it made the game less accessible. Playing poker using
-										a terminal was more difficult: users would have to read through a bunch of console messages to determine the state of the game. The 
-										terminal also seemed inconsistent with the (Nes) style of the UI.</em><br/><br/>
-
-										Deployed Website: <a href="https://console-poker.herokuapp.com/" >https://console-poker.herokuapp.com/</a><br/>
-										Backend Repo: <a href="https://github.com/atribecalledarty/console-poker-api">https://github.com/atribecalledarty/console-poker-api</a><br/>
-										Frontend Repo: <a href="https://github.com/atribecalledarty/console-poker-frontend">https://github.com/atribecalledarty/console-poker-frontend</a>
+										like Mr. Robot and Silicon Valley even non-coders find terminals very fascinating as well. 
+                                        Note: Later on in my project implementation,
+										after receiving feedback from people, I decided to remove the terminal UI because it made the game less accessible. Users would have to read through 
+                                        a bunch of console messages to determine the state of the game. The terminal also seemed inconsistent with the (Nes) style of the UI.</em><br/><br/>
 
 										<h5>What are some things I was thinking about when I created this project?</h5>
 										1. I knew I wanted a bank feature, where user's deposit funds into their account because the best part about playing Poker is playing
@@ -157,7 +158,7 @@
 										The biggest challenge I had going into this application was implementing Real Time communication between Client and Database (WebSockets).
 										I had never implemented a WebSockets connection and it was interesting learning about and implementing ActionCable to manage the connection.
 										Many features of my application required WebSockets connection: chatting, playing Poker, and keeping an updated list of lobbies.
-										Secondly, the other big challenge I encountered was designing the Poker logic. I created a <a href="https://medium.com/dev-genius/guide-for-newbie-github-users-understanding-git-github-9f8effe69e86">blog post</a> where I talk about the key things 
+										The other big challenge I encountered was designing the Poker logic. I created a <a href="https://medium.com/dev-genius/guide-for-newbie-github-users-understanding-git-github-9f8effe69e86">blog post</a> where I talk about the key things 
 										to creating the models and persisting the game of Poker to a database.
 										All in all, it was very fun learning how to implement these challenges.<br/><br/>
 
@@ -182,7 +183,7 @@
 											<img style="align-self:flex-start;" class="console_poker_image" src="images/console-poker/new_room.png" alt="console-poker_new_room" width="35%"/>
 											<img class="console_poker_image" src="images/console-poker/rooms_list.png" alt="console-poker_rooms_list" width="65%"/>
 											<!-- <div style="flex-basis:100%;height:0;"></div> -->
-											<img class="console_poker_image" src="images/console-poker/room.png" alt="console-poker_room" width="98%"/>
+											<img class="console_poker_image" src="images/console-poker/room_updated.png" alt="console-poker_room" width="98%"/>
 										</div>
 										<br style="clear:both" />
 
@@ -208,47 +209,24 @@
 											<li><i class="fa-li fa fa-check-square"></i> Stripe Implementation for User deposits/withdrawals</li>
 											<li><i class="fa-li fa fa-check-square"></i> Retro CSS styling using Nec.CSS stylesheet</li>
 										</ul>
-									</p>
-									<!-- <div class="features">
-										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>Possibly broke spacetime</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>Terraformed a small moon</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>Snapped dark matter in the wild</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-											</div>
-										</article>
-									</div> -->
+                                    </p>
 								</div>
 							</section>
 
 							<section id="five">
 								<div class="container">
-									<h3>iManage</h3>
+									<h3>iManage
+                                        <a href="https://github.com/atribecalledarty/i-manage" class="icon brands fa-github"></a>
+                                        <a href="https://i-manage.herokuapp.com/" class="fa fa-external-link-square"></a>
+                                    </h3>
 									<p>
 										iManage is a CMS React/Rails application I designed to help my apartment manager manage the 
-										residents and units in her apartment complex. I was inspired by the application, I use to pay rent 
+										residents and units in her apartment complex. I was inspired by the application I use to pay rent 
 										online, and wanted to create a mock version of that application. Basically, I wanted users to be able 
 										to log in, view their balance, and pay their balances from the comfort of their own home.
 										<br/><br/>
 										This project was mostly an application of the concepts/skills I learned about React and Redux state management!<br/><br/>
 										
-										Deployed Website: <a href="https://i-manage.herokuapp.com/" >https://i-manage.herokuapp.com/</a><br/>
-										GitHub: <a href="https://github.com/atribecalledarty/i-manage">https://github.com/atribecalledarty/i-manage</a><br/>
-
 										<h5>Walkthrough of iManage</h5>
 										There are two different types of users: manager and tenants. Manager can log in to their account and see
 										all the units and users in the application. The manager can assign and remove users from a unit, creating or destroying 
@@ -367,7 +345,7 @@
 										and have been engrossed in coding on and off for several years. In my early coding years in school, I studied Java and C++. Later, I learned
 										how to build website on my own using HTML, CSS, PHP, and JS. As a hobby, I built some websites for my friends and also built some for internships!
 										Recently, I became interested in coding again, and decided to give coding bootcamps a try. I'm very happy with the skills/technologies/lessons codding
-										bootcamps have taught me and I'm excited about continuing to develop and learn as a programmer. Recently, I've been working with React/Rails stack to build 
+										bootcamps have taught me and I'm excited about continuing to develop and learn as a programmer. Lately, I've been working with React/Rails stack to build 
 										out modern web applications!
 									</p>		
 										
@@ -386,6 +364,7 @@
 											<li><a href="https://www.linkedin.com/in/arthurcodes/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 											<li><a href="https://github.com/atribecalledarty" class="icon brands fa-github"><span class="label">Github</span></a></li>
 											<li><a href="mailto:arthursong14@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						                    <li><a href="https://docs.google.com/document/d/1sA1zWOj1GefClCgTop2IhhmDb3dIu7O9NjfjvZMmZWc/edit?usp=sharing" class="icon solid fa-file"><span class="label">Resume</span></a></li>
 										</ul>
 									</div>
 									<!-- <div class="features">
@@ -416,7 +395,7 @@
 							
 
 						<!-- Contact -->
-							<section id="eight">
+							<!-- <section id="eight">
 								<div class="container">
 									<h3>Contact Me</h3>
 									<p>Please contact me for any opportunities or any inquiries! I would also greatly appreciate any feedback for my website or my projects!</p>
@@ -436,7 +415,7 @@
 										</div>
 									</form>
 								</div>
-							</section>
+							</section> -->
 
 						<!-- Five -->
 						<!--
@@ -783,6 +762,23 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			</div>
 
 		<!-- Scripts -->
+            <script>
+                function myFunction() {
+                    var dots = document.getElementById("dots");
+                    var moreText = document.getElementById("console_poker_more");
+                    var btnText = document.getElementById("myBtn");
+
+                    if (dots.style.display === "none") {
+                        dots.style.display = "inline";
+                        btnText.innerHTML = "Read more"; 
+                        moreText.style.display = "none";
+                    } else {
+                        dots.style.display = "none";
+                        btnText.innerHTML = "Read less"; 
+                        moreText.style.display = "";
+                    }
+                }
+            </script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
