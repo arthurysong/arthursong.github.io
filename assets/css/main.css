@@ -43,6 +43,9 @@ border: 1px solid rgba(185, 74, 72, 0.3);
 		border-radius: 4px;
 }
 
+#more {
+	display: none;
+}
 /* .technologies {
 	list-style-type: none;
 } */

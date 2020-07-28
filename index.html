@@ -25,11 +25,11 @@
 					<ul>
 						<li><a href="#one" class="active">Welcome</a></li>
 						<li><a href="#two">Skills & Focus</a></li>
-						<li><a href="#three">Projects & Web Applications</a></li>
-						<li><a href="#four">Console-Poker</a></li>
-						<li><a href="#five">iManage</a></li>
-						<li><a href="#six">Citidex</a></li>
-						<li><a href="#seven">Arthur Song</a></li>
+						<li><a href="#three">Personal Projects</a></li>
+						<!-- <li><a href="#four">Console-Poker</a></li> -->
+						<!-- <li><a href="#five">iManage</a></li> -->
+						<!-- <li><a href="#six">Citidex</a></li> -->
+						<li><a href="#seven">About</a></li>
 						<!-- <li><a href="#eight">Contact</a></li> -->
 					</ul>
 				</nav>
@@ -60,13 +60,12 @@
 								</div>
 								<div class="container">
 									<header class="major">
-										<h2>Welcome</h2>
-										<p>Hi. Welcome to my site! Check out some of the projects that I've worked on 
-											and Find out more about me!</p>
+										<h2>Arthur Song</h2>
+										<p>Full Stack Web Developer</p>
 										</p>
 									</header>
 									<p>I'm a passionate software engineer who enjoys building robust and technical full stack web applications. 
-										I enjoy building React/Rails stack web applications that provide unique solutions and a fun experience for those around me.
+										I enjoy building React, Rails stack web applications that provide unique solutions and a fun experience for those around me.
 										Why would I be valuable to your company? I'm technically proficient, a diligent worker, and passionate about improving myself!
 									</p>
 								</div>
@@ -75,10 +74,9 @@
 						<!-- Two -->
 							<section id="two">
 								<div class="container">
-									<h3>Key Skills and Passions</h3>
-									<p>These are the languages, libraries, and applications that I have focused on for the last year. However, I've had 
-										experience with several other languages and I feel highly comfortable switching between languages. I also included some 
-										other miscellaneous skills that you may be interested in!</p>
+									<h3>Key Skills</h3>
+									<p>These are the languages, libraries, and applications that I have focused on for the last several years. However, I've had 
+										experience with several other languages and I feel highly comfortable switching between languages.</p>
 									<ul class="feature-icons">
 										<li class="icon solid fa-code">Ruby/Ruby on Rails</li>
 										<li class="icon solid fa-code">HTML/CSS/JavaScript</li>
@@ -95,10 +93,10 @@
 						<!-- Three -->
 							<section id="three">
 								<div class="container">
-									<h2>Technical Projects</h2>
-									<p>Here are some web applications I have built over the last year or so. The technologies I've built include Ruby on Rails RESTful APIs,
-										Single Page CMS applications, full Ruby on Rails/Sinatra MVC applications, dynamic front ends using React framework, WebSocket connections using Rails ActionCable, state management using Redux/Middlewares, 
-									authentication using JWT/Bcrypt/Rails Sessions, Third party authentication using OmniAuth, and more!<br/><br/>
+									<h2>Personal Projects</h2>
+									<p>The technologies I've built include Ruby on Rails RESTful APIs,
+										Single Page CMS applications, full Ruby on Rails and Sinatra MVC applications, Front Ends using React & Redux + Custom Middlewares, WebSocket connections using Rails ActionCable, 
+									authentication using JWT, Bcrypt, & Rails Sessions, and Third party authentication using OmniAuth!<br/><br/>
 									All my projects have been maintained using version control software Git/GitHub and fully deployed using Heroku! The databases are managed using MySQL and PostgreSQL.</p>
 									<!-- <div class="features">
 										<article>
@@ -134,81 +132,10 @@
                                         <a href="https://console-poker.herokuapp.com/" class="fa fa-external-link-square"></a>
                                     </h3>
 									<p>Console-Poker is a Poker website that I built because my friends and I enjoy playing
-										poker when we hangout, and what better time to create a virtual game then now during COVID! I knew there are many poker games out
+										poker when we hang out, and what better time to create a virtual game then now during COVID! I knew there are many poker games out
 										there so I wanted to create my own take by creating a UI where players play poker using a terminal, similar to how coders execute
 										commands in a terminal--I think working with a terminal is very appealing, and I think with the popularity of coding in media 
-										like Mr. Robot and Silicon Valley even non-coders find terminals very fascinating as well. 
-                                        Note: Later on in my project implementation,
-										after receiving feedback from people, I decided to remove the terminal UI because it made the game less accessible. Users would have to read through 
-                                        a bunch of console messages to determine the state of the game. The terminal also seemed inconsistent with the (Nes) style of the UI.</em><br/><br/>
-
-										<h5>What are some things I was thinking about when I created this project?</h5>
-										1. I knew I wanted a bank feature, where user's deposit funds into their account because the best part about playing Poker is playing
-										with real money. This depositing and withdrawing feature I implemented using Stripe! <br/><br/>
-										2. Another thing I thought about was I wanted to have a specific look for my project. Since, the terminal was going to be central 
-										to playing the game, I wanted the style or theme to feel retro. I found this style sheet called Nes.css with 8 bit styling, which 
-										I thought would be a great look to the app.<br/><br/>
-										3. Finally, I wanted socializing or chatting to be central to the application. I felt like many online poker sites out there
-										minimalize the social aspect of playing poker. When I'm playing poker with my friends, part of the fun is being able to talk and banter with each other.
-										Therefore, for my application, I wanted the chatting aspect of the game to be of equal importance to the Poker aspect of the game. To achieve this, I set out
-										for my chatting UI to be bigger, and also more interesting to look at (messages are decorated within a themed chatbox and encapsulated within
-										bubbles).<br/><br/>
-
-										<h5>Challenges</h5>
-										The biggest challenge I had going into this application was implementing Real Time communication between Client and Database (WebSockets).
-										I had never implemented a WebSockets connection and it was interesting learning about and implementing ActionCable to manage the connection.
-										Many features of my application required WebSockets connection: chatting, playing Poker, and keeping an updated list of lobbies.
-										The other big challenge I encountered was designing the Poker logic. I created a <a href="https://medium.com/dev-genius/guide-for-newbie-github-users-understanding-git-github-9f8effe69e86">blog post</a> where I talk about the key things 
-										to creating the models and persisting the game of Poker to a database.
-										All in all, it was very fun learning how to implement these challenges.<br/><br/>
-
-										<h5>Now without further ado, here is a walkthrough of the application</h5>
-										<b>1. Sign in / Register<br/></b>
-										Sign in to an existing account, or register a new account! Users can also sign in using a registered Google account.<br/><br/>
-										<div class="image_div">
-											<img style="align-self:flex-start;" class="console_poker_image" src="images/console-poker/login.png" alt="console-poker_login" width="48%"/>
-											<img class="console_poker_image" src="images/console-poker/register.png" alt="console-poker_register" width="48%"/>
-										</div>
-										<br style="clear:both" />
-										<b>2. Deposit Money<br/></b>
-										Navigate to the 'Bank' and buy chips with USD using a Credit/Debit card. 1 USD = 10000 Chips.<br/><br/>
-										<div class="image_div">
-											<img class="console_poker_image" src="images/console-poker/deposit.png" alt="console-poker_deposit" width="48%"/>
-										</div>
-										<br style="clear:both" />
-
-										<b>3. Join a Room and Play<br/></b>
-										Go back to the Rooms page, join or create a new room with your friends, and start playing Poker. You can have fun chatting as well!<br/><br/>
-										<div class="image_div">
-											<img style="align-self:flex-start;" class="console_poker_image" src="images/console-poker/new_room.png" alt="console-poker_new_room" width="35%"/>
-											<img class="console_poker_image" src="images/console-poker/rooms_list.png" alt="console-poker_rooms_list" width="65%"/>
-											<!-- <div style="flex-basis:100%;height:0;"></div> -->
-											<img class="console_poker_image" src="images/console-poker/room_updated.png" alt="console-poker_room" width="98%"/>
-										</div>
-										<br style="clear:both" />
-
-										<b>4. Withdraw your Winnings!<br/></b>
-										Once you and your friends are done playing, navigate back to the Bank, click withdraw. First time users need to create/connect a Stripe Connect 
-										account (using either a bank account or credit/debit card). Once connected, exchange and withdraw your available chips into the connected account.<br/><br/>
-										<div class="image_div">
-											<img style="align-self:flex-start;" class="console_poker_image" src="images/console-poker/withdraw.png" alt="console-poker_withdraw" width="48%"/>
-											<img class="console_poker_image" src="images/console-poker/stripe_connect.png" alt="console-poker_stripe_connect" width="48%"/>
-										</div>
-										<br style="clear:both" />
-
-										And that's it!<br/><br/>
-
-										<h5>Technologies used in this application are:</h5>
-										<ul class="fa-ul">
-											<li><i class="fa-li fa fa-check-square"></i>&nbsp;RESTful Rails API with technical models/associations</li>
-											<li><i class="fa-li fa fa-check-square"></i> JWT authentication, OmniAuth authentication with Google</li>
-											<li><i class="fa-li fa fa-check-square"></i> Rails ActionCable channels for WebSocket Connections</li>
-											<li><i class="fa-li fa fa-check-square"></i> React Frontend with Redux for state management</li>
-											<li><i class="fa-li fa fa-check-square"></i> ActionCable connection/subscriptions managed using Redux middlewares</li>
-											<li><i class="fa-li fa fa-check-square"></i> Graphic UI to display Poker game</li>
-											<li><i class="fa-li fa fa-check-square"></i> Stripe Implementation for User deposits/withdrawals</li>
-											<li><i class="fa-li fa fa-check-square"></i> Retro CSS styling using Nec.CSS stylesheet</li>
-										</ul>
+										like Mr. Robot and Silicon Valley even non-coders find terminals very fascinating as well.
                                     </p>
 								</div>
 							</section>
@@ -226,60 +153,6 @@
 										to log in, view their balance, and pay their balances from the comfort of their own home.
 										<br/><br/>
 										This project was mostly an application of the concepts/skills I learned about React and Redux state management!<br/><br/>
-										
-										<h5>Walkthrough of iManage</h5>
-										There are two different types of users: manager and tenants. Manager can log in to their account and see
-										all the units and users in the application. The manager can assign and remove users from a unit, creating or destroying 
-										"residencies." Once a user has been assigned to a unit, the application will calculate the balance for the user 
-										depending on how much the unit costs, how many months have passed, and also the users' past payments.<br/><br/>
-
-										Finally, a resident that has been assigned to a unit can log in to their account, check out past payments, and 
-										also submit a new payment towards their balance.<br/><br/>
-										<h6>Manager Web Flow</h6>
-										<b>1. Manager Sign In</b><br/>
-										Manager signs into her account.
-										<div style="text-align: center;">
-										<img src="images/imanage/login.png" alt="imanage_login" width="98%"/>
-										</div>
-										<b>2. View Units</b><br/>
-										View the units in her apartment complex. See what tenants are living in each unit. Check to see if they have paid their balance. 
-										If manager needs to contact a unit's tenant, find their numbers here.
-										<div style="text-align: center;">
-										<img src="images/imanage/units.png" alt="imanage_units" width="98%"/>
-										</div>
-										<b>3. Create a residency/Destroy residency</b><br/>
-										Click on an empty unit, and add an existing user to that unit. The unit will start to accrue balance. When a user leaves the apartment complex, 
-										simply remove them from them residency.
-										<div style="text-align: center;">
-										<img src="images/imanage/add_residency.png" alt="imanage_add_residency" width="98%"/>
-										</div>
-										<b>4. View Registered Users</b><br/>
-										See the users that have registered on the site, and check out their information.
-										<div style="text-align: center;">
-										<img src="images/imanage/users.png" alt="imanage_users" width="98%"/>
-										</div>
-										<h6>Tenant Web Flow</h6>
-										<b>1. Tenant Register & Sign In</b><br/>
-										New users register an account and sign in to their account.
-										<div style="text-align: center;">
-										<img src="images/imanage/register.png" alt="imanage_register" width="98%"/>
-										</div>
-										<b>2. View balance and Make Payment</b><br/>
-										Once a user has been assigned to a unit, users can submit a payment towards their balance. Users can also view their past payments.
-										<div style="text-align: center;">
-										<img src="images/imanage/user.png" alt="imanage_user" width="98%"/>
-										</div>
-										Finish!<br/><br/>
-
-										<h5>Technologies used in this application are:</h5>
-										<ul class="fa-ul">
-											<li><i class="fa-li fa fa-star"></i> RESTful Rails API with CRUD/Validations/Associations</li>
-											<li><i class="fa-li fa fa-star"></i> React Front end with Redux & Thunk</li>
-											<li><i class="fa-li fa fa-star"></i> Authentication using Rails Sessions/Redux/Bcrypt</li>
-											<li><i class="fa-li fa fa-star"></i> Client-Sided Routing using React-Router-Dom</li>
-											<li><i class="fa-li fa fa-star"></i> Component Lifecycle Methods used for Authorizing User Routes & Loading Resources</li>
-											<li><i class="fa-li fa fa-star"></i> Basic styling using React-Bootstrap and CSS</li>
-										</ul>
 									</p>
 									<!-- <div class="features">
 										<article>
@@ -338,13 +211,13 @@
 							</section>
 							<section id="seven">
 								<div class="container">
-									<h3>About: Arthur Song</h3>
+									<h3>About Me</h3>
 									<h4>Why would I make a good fit at your company?</h4>
 									<p>
 									I am a highly technical person. I've always enjoyed coding and building out projects. I first encountered coding in high school, 
-										and have been engrossed in coding on and off for several years. In my early coding years in school, I studied Java and C++. Later, I learned
-										how to build website on my own using HTML, CSS, PHP, and JS. As a hobby, I built some websites for my friends and also built some for internships!
-										Recently, I became interested in coding again, and decided to give coding bootcamps a try. I'm very happy with the skills/technologies/lessons codding
+										and have been engrossed in coding on and off for several years. In school, I studied Java and C++. Later, I learned
+										how to build website on my own using HTML, CSS, PHP, and JS. Recently, I became interested in coding again, and decided to give coding bootcamps a try. 
+										I'm very happy with the skills, technologies, and lessons coding
 										bootcamps have taught me and I'm excited about continuing to develop and learn as a programmer. Lately, I've been working with React/Rails stack to build 
 										out modern web applications!
 									</p>		
@@ -355,7 +228,6 @@
 										I consider myself a geeky person. I enjoy playing MOBA and FPS 
 										steam games with my friends. Some hobbies I enjoy are running, biking, Pilates, calisthentics, and gardening. I'm fascinated with 
 										the investing world, and also I revere comedy and comedians. Some of my favorite comedians/podcasters are Joe Rogan, Bill Burr, and Conan O' Brian.
-										My favorite pastime is watching Twitch streams GorgC and AdmiralBulldog. They are hilarious and alturistic people.
 									</p>
 									<br/>
 									<div style="text-align: center;">
@@ -754,7 +626,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					<section id="footer">
 						<div class="container">
 							<ul class="copyright">
-								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Arthur Song. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>
@@ -764,20 +636,20 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 		<!-- Scripts -->
             <script>
                 function myFunction() {
-                    var dots = document.getElementById("dots");
-                    var moreText = document.getElementById("console_poker_more");
-                    var btnText = document.getElementById("myBtn");
+					var dots = document.getElementById("dots");
+					var moreText = document.getElementById("more");
+					var btnText = document.getElementById("myBtn");
 
-                    if (dots.style.display === "none") {
-                        dots.style.display = "inline";
-                        btnText.innerHTML = "Read more"; 
-                        moreText.style.display = "none";
-                    } else {
-                        dots.style.display = "none";
-                        btnText.innerHTML = "Read less"; 
-                        moreText.style.display = "";
-                    }
-                }
+					if (dots.style.display === "none") {
+						dots.style.display = "inline";
+						btnText.innerHTML = "Read more";
+						moreText.style.display = "none";
+					} else {
+						dots.style.display = "none";
+						btnText.innerHTML = "Read less";
+						moreText.style.display = "inline";
+					}
+				}
             </script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
