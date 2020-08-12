@@ -10,8 +10,6 @@
 
 #about-p {
 	font-size: 1rem; 
-	/* line-height: 2.0rem; */
-	line-height: 1.75rem;
 }
 
 section#three p {
@@ -33,6 +31,10 @@ section#two li {
 	width: 48%;
 }
 
+section#three div.inner p {
+	font-size: 1.0rem;
+}
+
 #redux {
 	color: #764abc
 }
@@ -41,12 +43,6 @@ section#two li {
 	font-size: .75rem;
 	color: #764abc
 }
-
-/* #js_desc {
-	font-size: .75rem;
-	white-space: nowrap;
-	color: #f0db4f;
-} */
 
 .skill-icon {
 	font-size: 3.5rem;
