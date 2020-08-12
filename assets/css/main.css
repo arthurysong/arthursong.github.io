@@ -7,6 +7,52 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 	
 */
+
+#about-p {
+	font-size: 1rem; 
+	/* line-height: 2.0rem; */
+	line-height: 1.75rem;
+}
+
+section#three p {
+	font-size: 1.25rem;
+}
+
+section#two ul {
+	list-style: none;
+}
+
+section#two li {
+	/* display: inline-block; */
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 0 1.6875em 0;
+	padding: 0.35em 0 0 2.0em;
+	position: relative;
+	vertical-align: top;
+	width: 48%;
+}
+
+#redux {
+	color: #764abc
+}
+
+#redux_desc {
+	font-size: .75rem;
+	color: #764abc
+}
+
+/* #js_desc {
+	font-size: .75rem;
+	white-space: nowrap;
+	color: #f0db4f;
+} */
+
+.skill-icon {
+	font-size: 3.5rem;
+	margin-left: 1.5rem;
+}
+
 .image_div {
 	flex-wrap: wrap;
 	display: flex;
